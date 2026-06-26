@@ -1,7 +1,7 @@
 # Blog App
 
 A fully functional, modern blog application built with Next.js and Redux Toolkit. It allows users to browse, read, create, edit, and manage blog posts with a beautiful dark-themed UI.
-
+   Explain Video:- https://drive.google.com/file/d/1WMX48wMjC5cKsdwxIEImLD2XuZOGwur-/view?usp=sharing
 🚀 Features
 -----------
 
