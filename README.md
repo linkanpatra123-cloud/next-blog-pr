@@ -54,7 +54,7 @@ my-blog-app/
 ⚙️ Installation
 1. Clone the repository
 
- git clone <your-github-repo-url>
+ git clone <[your-github-repo-url](https://github.com/linkanpatra123-cloud/next-blog-pr)>
  cd my-blog-app    
 
 2. Install dependencies
@@ -94,4 +94,4 @@ Pagination for handling large numbers of blogs
 
 👨‍💻 Author
 Linkan
-GitHub: https://github.com/your-github-username   
+GitHub: [https://github.com/your-github-username](https://github.com/linkanpatra123-cloud/next-blog-pr)   
