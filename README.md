@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blog App
 
-## Getting Started
+A fully functional, modern blog application built with Next.js and Redux Toolkit. It allows users to browse, read, create, edit, and manage blog posts with a beautiful dark-themed UI.
 
-First, run the development server:
+🚀 Features
+-----------
 
-```bash
+* **CRUD Operations:** Create, Read, Update, and Delete blog posts.
+* **Advanced Filtering & Sorting:** Filter blogs by categories (Technology, Fashion, etc.) and sort them by Date (Latest/Oldest) or Alphabetically (A-Z/Z-A).
+* **Live Search:** Search blogs instantly by title or category using the custom-styled search bar.
+* **Modern UI/UX:** Features a dark theme with custom CSS hover effects (card lifting, bottom-to-top button fill, glowing search bar).
+* **Dynamic Routing:** Individual blog detail pages and edit pages using Next.js App Router.
+* **State Management:** Centralized state handling for blogs, search queries, and filters using Redux Toolkit.
+* **Mock Backend:** REST API simulation using JSON Server.
+
+🛠️ Tech Stack
+--------------
+
+* **Framework:** Next.js (App Router)
+* **UI Library:** React
+* **State Management:** Redux Toolkit (`react-redux`, `@reduxjs/toolkit`)
+* **Styling:** React Bootstrap, standard Bootstrap, Custom CSS
+* **HTTP Client:** Axios
+* **Icons:** React Icons (`FaSearch`, `FaEdit`, `FaTrash`, `FaCalendarAlt`, etc.)
+* **Database/API:** JSON Server
+
+📁 Project Structure
+--------------------
+
+```text
+my-blog-app/
+├── db.json                 # Mock database
+├── package.json
+├── public/
+└── src/
+    ├── app/
+    │   ├── blog/[id]/      # Blog details dynamic route
+    │   │   └── page.js
+    │   ├── create/         # Create post route
+    │   │   └── page.js
+    │   ├── edit/[id]/      # Edit post dynamic route
+    │   │   └── page.js
+    │   ├── globals.css     # Custom UI animations & styles
+    │   ├── layout.js       # Root layout & providers
+    │   └── page.js         # Home dashboard (List, Filter, Sort)
+    ├── components/
+    │   ├── CustomNavbar.jsx
+    │   ├── EmptyState.jsx
+    │   └── ReduxProvider.jsx
+    └── redux/
+        ├── blogSlice.js    # Async thunks and reducers
+        └── store.js        # Redux store configuration
+
+⚙️ Installation
+1. Clone the repository
+
+ git clone <your-github-repo-url>
+ cd my-blog-app    
+
+2. Install dependencies
+   npm install 
+
+3. Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The frontend application will be available at: http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Start the JSON Server (Mock Backend)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To run the database, open a new terminal window in the project root and run:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Bash
+npm run server
+Note: This runs the mock database on port 5000.
+API Endpoint: http://localhost:5000/blogs
 
-## Learn More
+📜 Available Scripts
+Bash
+npm run dev     # Starts the Next.js development server
+npm run server  # Starts the JSON Server on port 5000
+npm run build   # Builds the app for production
+npm run start   # Starts the production server
+npm run lint    # Runs ESLint to check for code issues
+📸 Screenshots
+(Add screenshots of your application here, such as the Home Dashboard, Create Blog Form, and glowing Hover effects).
 
-To learn more about Next.js, take a look at the following resources:
+✨ Future Improvements
+User Authentication & Authorization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Comments Section for individual blogs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Rich Text Editor for blog content creation
 
-## Deploy on Vercel
+Pagination for handling large numbers of blogs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👨‍💻 Author
+Linkan
+GitHub: https://github.com/your-github-username   

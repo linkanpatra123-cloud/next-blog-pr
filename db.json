@@ -1,0 +1,32 @@
+{
+  "blogs": [
+    {
+      "title": "Easy Homemade Pizza Recipe",
+      "category": "Food",
+      "content": "Making pizza at home is simple and fun. Start with a fresh pizza base, add your favorite sauce, cheese, and toppings, then bake until golden brown. Homemade pizza allows you to customize flavors while enjoying a delicious meal with family and friends.",
+      "image": "https://lilluna.com/wp-content/uploads/2025/10/margherita-pizza-resize-8-1-480x270.jpg",
+      "tags": [
+        "pizza recipe cooking homemade"
+      ],
+      "date": "2026-06-26",
+      "id": "CPvpmelN47U",
+      "blogImage": "https://lilluna.com/wp-content/uploads/2025/10/margherita-pizza-resize-8-1-480x270.jpg",
+      "tag": "pizza recipe cooking homemade"
+    },
+    {
+      "title": "Mastering Next.js for Modern Web Development",
+      "category": "Technology",
+      "content": "Next.js is a powerful React framework that helps developers build fast, scalable, and SEO-friendly web applications. It provides features like server-side rendering, static site generation, API routes, and optimized performance. With Next.js, developers can create modern web applications more efficiently while improving user experience and search engine visibility.",
+      "image": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fuploads.teachablecdn.com%2Fattachments%2F0dKhU49vRbiSSWknbHAR_1920X1357.jpg&w=3840&q=75",
+      "tags": [
+        "nextjs",
+        "react",
+        "javascript",
+        "frontend"
+      ],
+      "date": "2026-06-25",
+      "id": "PJtMnI63BiE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
