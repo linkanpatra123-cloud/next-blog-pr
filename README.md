@@ -56,7 +56,7 @@ my-blog-app/
 ⚙️ Installation
 1. Clone the repository
 
- git clone <[your-github-repo-url](https://github.com/linkanpatra123-cloud/next-blog-pr)>
+ git clone <(https://github.com/linkanpatra123-cloud/next-blog-pr)>
  cd my-blog-app    
 
 2. Install dependencies
@@ -82,8 +82,6 @@ npm run server  # Starts the JSON Server on port 5000
 npm run build   # Builds the app for production
 npm run start   # Starts the production server
 npm run lint    # Runs ESLint to check for code issues
-📸 Screenshots
-(Add screenshots of your application here, such as the Home Dashboard, Create Blog Form, and glowing Hover effects).
 
 ✨ Future Improvements
 User Authentication & Authorization
@@ -96,4 +94,4 @@ Pagination for handling large numbers of blogs
 
 👨‍💻 Author
 Linkan
-GitHub: [https://github.com/your-github-username](https://github.com/linkanpatra123-cloud/next-blog-pr)   
+GitHub: (https://github.com/linkanpatra123-cloud/next-blog-pr)   
